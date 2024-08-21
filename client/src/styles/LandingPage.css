@@ -1,0 +1,140 @@
+.box-container {
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #99C9ED;
+  overflow: hidden;
+  padding: 4px;
+  width: 100vw;
+  min-height: 91vh;
+  position: relative;
+}
+.img-container{
+  width: 50vw;
+  height: 100%;
+  background:url(../assets/img2.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.text .para{
+  margin-bottom: 20px;
+  font-size: 22px;
+  width: 550px;
+
+}
+.text .heading{
+  font-size: 3.3rem;
+  width: 550px;
+}
+/* .image-style-1 {
+  width: 450px;
+  height: 380px;
+  border-radius: 50%;
+  opacity: 0.9;
+} */
+
+/* .image-container-1 {
+  position: absolute;
+  right: 5px;
+  top: -30px;
+  z-index: -100;
+  transform: rotate(-4deg);
+}
+
+.image-style-2 {
+  width: 450px;
+  height: 380px;
+  border-radius: 8px;
+  opacity: 0.9;
+}
+
+.image-container-2 {
+  position: absolute;
+  bottom: -15px;
+  left: -14px;
+  z-index: -100;
+  transform: rotate(-4deg);
+}
+
+.image-style-3 {
+  width: 680px;
+  height: 700px;
+  border-radius: 8px;
+  opacity: 0.7;
+}
+
+.image-container-3 {
+  position: absolute;
+  left: 28%;
+  top: -6%;
+  z-index: -300;
+  transform: rotate(-15deg);
+} */
+/* 
+.overlay-text {
+  display: flex;
+  justify-content: start;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  color: #000;
+  z-index: 10;
+} */
+
+/* Media Queries for Responsive Adjustments */
+@media screen and (max-width: 1080px) {
+  .img-container {
+    position: relative;
+  }
+  .text .para{
+    margin-bottom: 20px;
+    font-size: 22px;
+    width: 450px;
+  
+  }
+  .text .heading{
+    font-size: 3.3rem;
+    width: 450px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .img-container {
+    position: relative;
+  }
+  .text .para{
+    margin-bottom: 20px;
+    font-size: 21px;
+    width: 350px;
+  
+  }
+  .text .heading{
+    font-size: 3rem;
+    width: 350px;
+  }
+}
+@media screen and (max-width:568px) {
+  .box-container{
+    flex-direction: column;
+  }
+  .img-container {
+    width: 100%;
+  }
+  .text .heading{
+    margin-top: 50px;
+    font-size: 2.2rem;
+    width: 300px;
+  }
+  .text .para{
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 300px;
+  }
+}

@@ -1,0 +1,111 @@
+.nav-container {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1111;
+}
+.menu-icon {
+  display: none;
+}
+.resume-builder-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.app-bar {
+  background-color: var(--bgColor);
+  color: black;
+}
+
+.menu-icon {
+  margin-right: 10px;
+}
+
+
+.logo-text {
+  margin-left: 2px;
+  font-weight: 600;
+}
+
+.resume-builder-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.template-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.avatar {
+  cursor: pointer;
+  width: 15px;
+  height: 2px;
+  margin-left: 10px;
+  /* padding: 5px; */
+  border-radius: 50%;
+  background-color: red;
+}
+
+.login-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.drawer-div {
+  width: 250px;
+  background-color: var(--bgColor);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding-top: 60px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-text {
+    padding-left: 25px;
+    padding-bottom: 4px;
+  }
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .resume-builder-link {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+}
+@media screen and (max-width: 576px){
+  .resume-builder-link {
+    font-size: 14px;
+    padding-left: 5px;
+  }
+  
+  .menu-icon {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 10px;
+    font-weight: 600;
+  }
+}
