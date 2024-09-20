@@ -20,7 +20,7 @@
     "@react-pdf-viewer/default-layout": "^3.12.0",
     "@react-pdf/renderer": "^3.4.4",
     "@reduxjs/toolkit": "^2.2.2",
-    "axios": "^1.6.8",
+    "axios": "^1.7.4",
     "docxtemplater": "^3.47.4",
     "dom-to-image": "^2.6.0",
     "dom-to-pdf": "^0.3.2",
