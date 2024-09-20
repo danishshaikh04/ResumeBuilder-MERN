@@ -37,7 +37,7 @@
     "react": "^18.2.0",
     "react-confetti": "^6.1.0",
     "react-dom": "^18.2.0",
-    "react-pdf": "^7.7.1",
+    "react-pdf": "^7.7.3",
     "react-pdf-html": "^2.0.4",
     "react-quill": "^2.0.0",
     "react-redux": "^9.1.0",
