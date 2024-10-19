@@ -44,7 +44,7 @@ The Resume Builder web app is a comprehensive tool designed to streamline the pr
 
 3. **Run the application:**
     ```bash
-    npm start
+    npm run dev
     ```
 
 4. **Build for production:**
