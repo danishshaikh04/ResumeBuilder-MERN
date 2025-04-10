@@ -60,9 +60,4 @@ The Resume Builder web app is a comprehensive tool designed to streamline the pr
 - **Authentication:** JWT, Firebase
 - **Other Libraries:** PDF and DOCX generation
 
-### Contributions
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/your-username/resume-builder-app/issues).
-
----
 
